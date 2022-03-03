@@ -1,0 +1,24 @@
+{
+    "name": "toiladev/module-demo",
+    "description": "demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dũng NT",
+            "email": "kingtrungdung@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Module\\Demo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Module\\demo\\ServiceProvider"
+            ]
+        }
+    }
+}
